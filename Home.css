@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    color: #333;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px aqua;
+  background-color: goldenrod;
+  box-shadow: 0px 0px 50px 15px tomato;
+  
+}
+
+div{
+  color: black;
+ text-align: center;
+  background-color: deepskyblue;
+  box-shadow: 0px 10px lime;
+  box-shadow: 0px 10px;
+  padding: 0px 0px;
+  animation: fadeInup 2s ease-in;
+    box-shadow: 0px 0px 20px 10px orangered;
+}
+
+
+
+main {
+  
+ background-color: mediumspringgreen;
+ text-align: center;
+ padding: 0px 0px;
+ animation: fadeInup 2s ease-in;
+ box-shadow: 0px 0px 50px 15px yellow;
+}
+
+ 
+
+
+header, nav, section, footer {
+    padding: 30px 30px;
+}
+
+header {
+    background-color: fuchsia;
+    color: black;
+    padding: 25px 1px;
+    text-align: center;
+    animation: fadeInup 2s ease-in;
+   box-shadow: 0px 0px 100px 10px rebeccapurple;
+}
+
+nav ul {
+    background-color: grey;
+    box-shadow: 0px 0px 15px 15px dimgray;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+nav button{
+
+  font-size: 1rem;
+  font-weight: 20;
+  padding: 0.5em 2em;
+  color:  lime;
+  background-color: wheat;
+  border: 3px solid;
+  border-spacing: 5px;
+  transition: all 0.3s;
+  
+}
+nav button:hover {
+  transform: translateY(-4pc);
+  background-color: deeppink;
+  color: yellow;
+  
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+
+section{
+    margin: 40px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: springgreen;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 50px 15px tomato;
+}
+
+#home{
+  background: deepskyblue;
+  
+}
+#about{
+  background: aqua;
+  box-shadow: 0px 0px 50px 15px deeppink;
+}
+
+#services{
+  background: greenyellow;
+  box-shadow: 0px 0px 50px 15px blue;
+}
+
+#contact{
+  background: deeppink;
+  box-shadow: 0px 0px 50px 15px aqua;
+}
+#like{
+  background: yellow;
+  box-shadow: 5px 0px 50px 15px deeppink;
+}
+#grow{
+  background: burlywood;
+  color: black;
+  box-shadow: 0px 0px 50px 15px lime;
+}
+#Vid{
+  background: violet;
+  color: black;
+  box-shadow: 0px 0px 50px 15px blue;
+}
+#Flavor{
+  color: black;
+  background-color: sandybrown;
+  box-shadow: 0px 0px 50px 15px darkviolet;
+}
+#quotes {
+  font-size: 19px;
+  text-align: content;
+  color: black;
+  background-color: hotpink;
+  box-shadow: 0px 0px 50px 15px green;
+  
+}
+
+#quotes1 {
+  font-size: 19px;
+  text-align: content;
+  color: black;
+  background-color: deepskyblue;
+  box-shadow: 0px 0px 50px 15px magenta;
+  
+}
+
+    
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        .bubble-tea-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            box-shadow: 0px 0px 50px 15px aquamarine;
+        }
+    
+        .typewriter-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: skyblue;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px 15px deeppink;
+        }
+
+        .typewriter-text {
+            overflow: hidden;
+            border-right: 1px solid #333;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: 1px;
+            animation: typing 3s, forwards, blink-caret 0.5s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 180%;
+            }
+        }
+
+        @keyframes blink-caret {
+            from, to {
+                border-color: transparent;
+            }
+            50% {
+                border-color: magenta ;
+            }
+        }
+    
